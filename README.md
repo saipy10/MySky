@@ -39,7 +39,7 @@ Before you begin, ensure you have met the following requirements:
 
 3. **Configure API key:**
 
-   Open `lib/services/weather_service.dart` and replace `YOUR_API_KEY` with your actual OpenWeather API key.
+   Open `lib/constants` add file `api_key.dart` and write following
 
    ```dart
    final String apiKey = 'YOUR_API_KEY';
